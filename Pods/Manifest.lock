@@ -1,0 +1,15 @@
+PODS:
+  - CameraManager (3.2.0)
+  - KeychainAccess (3.1.0)
+
+DEPENDENCIES:
+  - CameraManager (~> 3.2)
+  - KeychainAccess
+
+SPEC CHECKSUMS:
+  CameraManager: 2207f57b8da175a8e4d26d405d68201ad54189a6
+  KeychainAccess: 94c5540b32eabf7bc32bfb976a268e8ea05fd6da
+
+PODFILE CHECKSUM: 7c8fdb0fea6748211892c6633d4977c6ade70f2d
+
+COCOAPODS: 1.4.0

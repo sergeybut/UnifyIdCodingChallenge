@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9E0A3F235B47A589F82F748 /* Pods_Unify_IDChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C63D4ACBC8C89055DCDE09 /* Pods_Unify_IDChallenge.framework */; };
+		C54B98DE20507EB400184BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54B98DD20507EB400184BF5 /* AppDelegate.swift */; };
+		C54B98E020507EB400184BF5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54B98DF20507EB400184BF5 /* LoginViewController.swift */; };
+		C54B98E320507EB400184BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54B98E120507EB400184BF5 /* Main.storyboard */; };
+		C54B98E520507EB400184BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54B98E420507EB400184BF5 /* Assets.xcassets */; };
+		C54B98E820507EB400184BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54B98E620507EB400184BF5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15C63D4ACBC8C89055DCDE09 /* Pods_Unify_IDChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unify_IDChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54B98DA20507EB400184BF5 /* Unify.IDChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unify.IDChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54B98DD20507EB400184BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C54B98DF20507EB400184BF5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C54B98E220507EB400184BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C54B98E420507EB400184BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C54B98E720507EB400184BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C54B98E920507EB400184BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7D3D8CE9F9C9E0E980BADA /* Pods-Unify.IDChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unify.IDChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Unify.IDChallenge/Pods-Unify.IDChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		F7FC1EA9335F6B6D1BE9EDEF /* Pods-Unify.IDChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unify.IDChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Unify.IDChallenge/Pods-Unify.IDChallenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C54B98D720507EB400184BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9E0A3F235B47A589F82F748 /* Pods_Unify_IDChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C67AC01DC007AF9C54BCD2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC7D3D8CE9F9C9E0E980BADA /* Pods-Unify.IDChallenge.debug.xcconfig */,
+				F7FC1EA9335F6B6D1BE9EDEF /* Pods-Unify.IDChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C54B98D120507EB400184BF5 = {
+			isa = PBXGroup;
+			children = (
+				C54B98DC20507EB400184BF5 /* Unify.IDChallenge */,
+				C54B98DB20507EB400184BF5 /* Products */,
+				4C67AC01DC007AF9C54BCD2F /* Pods */,
+				E4E39E4A962FF3C3AE54D4E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C54B98DB20507EB400184BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C54B98DA20507EB400184BF5 /* Unify.IDChallenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C54B98DC20507EB400184BF5 /* Unify.IDChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				C54B98DD20507EB400184BF5 /* AppDelegate.swift */,
+				C54B98DF20507EB400184BF5 /* LoginViewController.swift */,
+				C54B98E120507EB400184BF5 /* Main.storyboard */,
+				C54B98E420507EB400184BF5 /* Assets.xcassets */,
+				C54B98E620507EB400184BF5 /* LaunchScreen.storyboard */,
+				C54B98E920507EB400184BF5 /* Info.plist */,
+			);
+			path = Unify.IDChallenge;
+			sourceTree = "<group>";
+		};
+		E4E39E4A962FF3C3AE54D4E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15C63D4ACBC8C89055DCDE09 /* Pods_Unify_IDChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C54B98D920507EB400184BF5 /* Unify.IDChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54B98EC20507EB400184BF5 /* Build configuration list for PBXNativeTarget "Unify.IDChallenge" */;
+			buildPhases = (
+				8AFA41511CEF53078C762970 /* [CP] Check Pods Manifest.lock */,
+				C54B98D620507EB400184BF5 /* Sources */,
+				C54B98D720507EB400184BF5 /* Frameworks */,
+				C54B98D820507EB400184BF5 /* Resources */,
+				DC025B558AEA1EC1287BF1C1 /* [CP] Embed Pods Frameworks */,
+				3F521530ACD0ACAC46657877 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unify.IDChallenge;
+			productName = Unify.IDChallenge;
+			productReference = C54B98DA20507EB400184BF5 /* Unify.IDChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C54B98D220507EB400184BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Serhii Butenko";
+				TargetAttributes = {
+					C54B98D920507EB400184BF5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C54B98D520507EB400184BF5 /* Build configuration list for PBXProject "Unify.IDChallenge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C54B98D120507EB400184BF5;
+			productRefGroup = C54B98DB20507EB400184BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C54B98D920507EB400184BF5 /* Unify.IDChallenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C54B98D820507EB400184BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54B98E820507EB400184BF5 /* LaunchScreen.storyboard in Resources */,
+				C54B98E520507EB400184BF5 /* Assets.xcassets in Resources */,
+				C54B98E320507EB400184BF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F521530ACD0ACAC46657877 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Unify.IDChallenge/Pods-Unify.IDChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFA41511CEF53078C762970 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Unify.IDChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC025B558AEA1EC1287BF1C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Unify.IDChallenge/Pods-Unify.IDChallenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CameraManager/CameraManager.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CameraManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Unify.IDChallenge/Pods-Unify.IDChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C54B98D620507EB400184BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54B98E020507EB400184BF5 /* LoginViewController.swift in Sources */,
+				C54B98DE20507EB400184BF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C54B98E120507EB400184BF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54B98E220507EB400184BF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C54B98E620507EB400184BF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54B98E720507EB400184BF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C54B98EA20507EB400184BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C54B98EB20507EB400184BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C54B98ED20507EB400184BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7D3D8CE9F9C9E0E980BADA /* Pods-Unify.IDChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CL443JWJN;
+				INFOPLIST_FILE = Unify.IDChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey.Unify-IDChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C54B98EE20507EB400184BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FC1EA9335F6B6D1BE9EDEF /* Pods-Unify.IDChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9CL443JWJN;
+				INFOPLIST_FILE = Unify.IDChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sergey.Unify-IDChallenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C54B98D520507EB400184BF5 /* Build configuration list for PBXProject "Unify.IDChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54B98EA20507EB400184BF5 /* Debug */,
+				C54B98EB20507EB400184BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54B98EC20507EB400184BF5 /* Build configuration list for PBXNativeTarget "Unify.IDChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54B98ED20507EB400184BF5 /* Debug */,
+				C54B98EE20507EB400184BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C54B98D220507EB400184BF5 /* Project object */;
+}

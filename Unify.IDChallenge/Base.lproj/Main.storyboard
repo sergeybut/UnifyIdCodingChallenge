@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Unify_IDChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aa-Oe-XT6">
+                                <rect key="frame" x="130" y="612" width="115" height="30"/>
+                                <color key="backgroundColor" red="0.80781980231000006" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="X1q-aH-pMc"/>
+                                </constraints>
+                                <state key="normal" title="Press me!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="authenticateButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AEm-7U-c5M"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready to use." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7LT-N2-Dxv">
+                                <rect key="frame" x="135" y="557" width="104" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Fr9-Dp-wJY">
+                                <rect key="frame" x="177" y="323" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ihz-jj-TPu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4aa-Oe-XT6" firstAttribute="top" secondItem="7LT-N2-Dxv" secondAttribute="bottom" constant="34" id="36J-Q6-YWr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4aa-Oe-XT6" secondAttribute="bottom" constant="25" id="6zg-L2-qp0"/>
+                            <constraint firstItem="Fr9-Dp-wJY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ahf-D5-aQL"/>
+                            <constraint firstItem="ihz-jj-TPu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="BZi-6c-Wf2"/>
+                            <constraint firstItem="ihz-jj-TPu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RzR-6y-PGV"/>
+                            <constraint firstItem="Fr9-Dp-wJY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="SLQ-rf-AuV"/>
+                            <constraint firstItem="ihz-jj-TPu" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Sn2-h3-35y"/>
+                            <constraint firstItem="7LT-N2-Dxv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZX2-64-uUw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4aa-Oe-XT6" secondAttribute="trailing" constant="130" id="Zjc-qU-DEm"/>
+                            <constraint firstItem="4aa-Oe-XT6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="130" id="bpa-LU-b1e"/>
+                            <constraint firstItem="ihz-jj-TPu" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gAs-sC-52N"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="Fr9-Dp-wJY" id="ccG-FF-4aV"/>
+                        <outlet property="activityLabel" destination="7LT-N2-Dxv" id="Irk-7s-Iab"/>
+                        <outlet property="authenticateButton" destination="4aa-Oe-XT6" id="idt-jN-ZyL"/>
+                        <outlet property="cameraView" destination="ihz-jj-TPu" id="Ooi-k8-kd1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="113.79310344827587"/>
+        </scene>
+    </scenes>
+</document>
